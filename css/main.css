@@ -1,0 +1,166 @@
+/****************************
+General
+*****************************/
+
+body{
+  font-family: 'Roboto';
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/****************************
+HEADING
+*****************************/
+
+header{
+	float: left;
+	margin: 10% 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+}
+
+/****************************
+NAVIGATION
+*****************************/
+
+nav {
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+/****************************
+FOOTER
+*****************************/
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 75px;
+    color: #ccc;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+    
+footer a{
+    text-align:center;
+    color: #ccc;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+/****************************
+PAGE: HOME
+*****************************/
+
+#content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#content li {
+    float: left;
+    width: 30%;
+    margin: 1.6667%;
+    list-style: none;
+    text-align: center;
+}
+
+.photo {
+    max-height: 15%;
+}
+
+#content li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75;
+}
+
+/****************************
+PAGE: ABOUT
+*****************************/
+
+#main {
+    text-align: center;
+}
+
+.profile-pic {
+    max-width: 20%;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+
+
+/****************************
+PAGE: CONTACT
+*****************************/
+
+#main-contact {
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+}
+
+#main-contact ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+#main-contact li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+/****************************
+COLOURS
+*****************************/
+
+a {
+    color: black;
+}
+
+nav a.selected, nav a:hover {
+		    color: #FD8B8B;
+		}
