@@ -130,6 +130,12 @@ PAGE: ABOUT
     border-radius: 100%;
 }
 
+#about-text p {
+    text-align: center;
+    width: 50%;
+    margin: 0 25%;
+}
+
 
 
 /****************************
@@ -151,6 +157,21 @@ PAGE: CONTACT
 #main-contact li {
     display: inline-block;
     margin: 0 4px;
+}
+
+/****************************
+HAVING FUN
+*****************************/
+
+#fun {
+    text-align: center;
+    margin: 10% 10px;
+    padding: 20px;
+}
+
+#fun h1 {
+    font-family: 'Roboto';
+    font-weight: normal;
 }
 
 /****************************
